@@ -1,0 +1,16 @@
+﻿Build started 8/7/2023 1:09:32 AM.
+     1>Project "E:\CSE 1.2\CSE!1200\Assignment\Off2_20220104072\Assignment g\Assignment g.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CSE 1.2\CSE!1200\Assignment\Off2_20220104072\Debug\Assignment g.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assignment g.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\CSE 1.2\CSE!1200\Assignment\Off2_20220104072\Debug\Assignment g.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CSE 1.2\CSE!1200\Assignment\Off2_20220104072\Debug\Assignment g.lib" /MACHINE:X86 Debug\iMain.obj
+         LINK : E:\CSE 1.2\CSE!1200\Assignment\Off2_20220104072\Debug\Assignment g.exe not found or not built by the last incremental link; performing full link
+         Assignment g.vcxproj -> E:\CSE 1.2\CSE!1200\Assignment\Off2_20220104072\Debug\Assignment g.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\CSE 1.2\CSE!1200\Assignment\Off2_20220104072\Debug\Assignment g.exe;#1" /manifest "Debug\Assignment g.exe.intermediate.manifest"
+     1>Done Building Project "E:\CSE 1.2\CSE!1200\Assignment\Off2_20220104072\Assignment g\Assignment g.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.46

@@ -1,0 +1,13 @@
+﻿Build started 7/25/2023 3:55:54 PM.
+     1>Project "D:\Workspace\Game_Dev\Balsal\John_Weak_Level_03\John_Weak_Level_03\John_Weak_Level_03.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\John_Weak_Level_03.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+     1>d:\workspace\game_dev\balsal\john_weak_level_03\john_weak_level_03\imain.cpp(13): error C2065: 'base_height' : undeclared identifier
+     1>Done Building Project "D:\Workspace\Game_Dev\Balsal\John_Weak_Level_03\John_Weak_Level_03\John_Weak_Level_03.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.84

@@ -1,0 +1,232 @@
+﻿Build started 7/26/2023 3:40:33 PM.
+     1>Project "D:\Workspace\Game_Dev\JohnWeakVS_13\JohnWeakVS_13\JohnWeakVS_13.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(25): error C2086: 'int iScreenHeight' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(25) : see declaration of 'iScreenHeight'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(25): error C2086: 'int iScreenWidth' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(25) : see declaration of 'iScreenWidth'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(26): error C2086: 'int iMouseX' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(26) : see declaration of 'iMouseX'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(26): error C2086: 'int iMouseY' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(26) : see declaration of 'iMouseY'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(27): error C2374: 'ifft' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(27) : see declaration of 'ifft'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(28): error C2374: 'iAnimFunction' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(28) : see declaration of 'iAnimFunction'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(29): error C2374: 'iAnimCount' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(29) : see declaration of 'iAnimCount'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(30): error C2086: 'int iAnimDelays[10]' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(30) : see declaration of 'iAnimDelays'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(31): error C2086: 'int iAnimPause[10]' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(31) : see declaration of 'iAnimPause'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(39): error C2084: function 'void iA0(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(39) : see previous definition of 'iA0'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(40): error C2084: function 'void iA1(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(40) : see previous definition of 'iA1'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(41): error C2084: function 'void iA2(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(41) : see previous definition of 'iA2'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(42): error C2084: function 'void iA3(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(42) : see previous definition of 'iA3'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(43): error C2084: function 'void iA4(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(43) : see previous definition of 'iA4'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(44): error C2084: function 'void iA5(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(44) : see previous definition of 'iA5'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(45): error C2084: function 'void iA6(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(45) : see previous definition of 'iA6'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(46): error C2084: function 'void iA7(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(46) : see previous definition of 'iA7'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(47): error C2084: function 'void iA8(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(47) : see previous definition of 'iA8'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(48): error C2084: function 'void iA9(HWND,unsigned int,unsigned int,unsigned long)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(48) : see previous definition of 'iA9'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(51): error C2084: function 'int iSetTimer(int,void (__cdecl *)(void))' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(50) : see previous definition of 'iSetTimer'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(76): error C2084: function 'void iPauseTimer(int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(76) : see previous definition of 'iPauseTimer'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(82): error C2084: function 'void iResumeTimer(int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(82) : see previous definition of 'iResumeTimer'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(105): error C2084: function 'void iShowBMP2(int,int,char [],int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(104) : see previous definition of 'iShowBMP2'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(136): error C2084: function 'void iShowBMP(int,int,char [])' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(135) : see previous definition of 'iShowBMP'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(137): error C3861: 'iShowBMP2': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(141): error C2084: function 'void iGetPixelColor(int,int,int [])' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(140) : see previous definition of 'iGetPixelColor'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(154): error C2572: 'iText' : redefinition of default parameter : parameter 4
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(153) : see declaration of 'iText'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(154): error C2084: function 'void iText(GLdouble,GLdouble,char *,void *)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(153) : see previous definition of 'iText'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(166): error C2572: 'iText2' : redefinition of default parameter : parameter 4
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(165) : see declaration of 'iText2'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(166): error C2084: function 'void iText2(GLdouble,GLdouble,std::string,void *)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(165) : see previous definition of 'iText2'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(177): error C2572: 'iPoint' : redefinition of default parameter : parameter 3
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(176) : see declaration of 'iPoint'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(177): error C2084: function 'void iPoint(double,double,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(176) : see previous definition of 'iPoint'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(192): error C2084: function 'void iLine(double,double,double,double)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(191) : see previous definition of 'iLine'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(200): error C2084: function 'void iFilledPolygon(double [],double [],int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(199) : see previous definition of 'iFilledPolygon'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(211): error C2084: function 'void iPolygon(double [],double [],int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(210) : see previous definition of 'iPolygon'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(223): error C2084: function 'void iRectangle(double,double,double,double)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(222) : see previous definition of 'iRectangle'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(231): error C3861: 'iLine': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(232): error C3861: 'iLine': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(233): error C3861: 'iLine': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(234): error C3861: 'iLine': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(238): error C2084: function 'void iFilledRectangle(double,double,double,double)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(237) : see previous definition of 'iFilledRectangle'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(256): error C3861: 'iFilledPolygon': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(260): error C2572: 'iFilledCircle' : redefinition of default parameter : parameter 4
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(259) : see declaration of 'iFilledCircle'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(260): error C2084: function 'void iFilledCircle(double,double,double,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(259) : see previous definition of 'iFilledCircle'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(279): error C2572: 'iCircle' : redefinition of default parameter : parameter 4
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(278) : see declaration of 'iCircle'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(279): error C2084: function 'void iCircle(double,double,double,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(278) : see previous definition of 'iCircle'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(288): error C3861: 'iLine': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(295): error C2572: 'iEllipse' : redefinition of default parameter : parameter 5
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(294) : see declaration of 'iEllipse'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(295): error C2084: function 'void iEllipse(double,double,double,double,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(294) : see previous definition of 'iEllipse'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(304): error C3861: 'iLine': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(311): error C2572: 'iFilledEllipse' : redefinition of default parameter : parameter 5
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(310) : see declaration of 'iFilledEllipse'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(311): error C2084: function 'void iFilledEllipse(double,double,double,double,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(310) : see previous definition of 'iFilledEllipse'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(329): error C2084: function 'void iSetColor(double,double,double)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(328) : see previous definition of 'iSetColor'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(344): error C2084: function 'void iDelay(int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(343) : see previous definition of 'iDelay'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(355): error C2084: function 'void iClear(void)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(354) : see previous definition of 'iClear'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(362): error C2084: function 'void displayFF(void)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(362) : see previous definition of 'displayFF'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(369): error C2084: function 'void animFF(void)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(368) : see previous definition of 'animFF'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(372): error C3861: 'iClear': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(378): error C2084: function 'void keyboardHandler1FF(unsigned char,int,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(377) : see previous definition of 'keyboardHandler1FF'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(383): error C2084: function 'void keyboardHandler2FF(int,int,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(382) : see previous definition of 'keyboardHandler2FF'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(389): error C2084: function 'void mouseMoveHandlerFF(int,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(388) : see previous definition of 'mouseMoveHandlerFF'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(398): error C2084: function 'void mouseHandlerFF(int,int,int,int)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(397) : see previous definition of 'mouseHandlerFF'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(408): error C2572: 'iInitialize' : redefinition of default parameter : parameter 3
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(408): error C2572: 'iInitialize' : redefinition of default parameter : parameter 2
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(408): error C2572: 'iInitialize' : redefinition of default parameter : parameter 1
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(408): error C2084: function 'void iInitialize(int,int,char *)' already has a body
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see previous definition of 'iInitialize'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(423): error C3861: 'iClear': identifier not found
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(25) : see declaration of 'iScreenHeight'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(25) : see declaration of 'iScreenWidth'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(26) : see declaration of 'iMouseX'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(26) : see declaration of 'iMouseY'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(27) : see declaration of 'ifft'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(28) : see declaration of 'iAnimFunction'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(29) : see declaration of 'iAnimCount'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(30) : see declaration of 'iAnimDelays'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(31) : see declaration of 'iAnimPause'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(153) : see declaration of 'iText'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(165) : see declaration of 'iText2'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(176) : see declaration of 'iPoint'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(259) : see declaration of 'iFilledCircle'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(278) : see declaration of 'iCircle'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(294) : see declaration of 'iEllipse'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(310) : see declaration of 'iFilledEllipse'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(25) : see declaration of 'iScreenHeight'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(25) : see declaration of 'iScreenWidth'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(26) : see declaration of 'iMouseX'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(26) : see declaration of 'iMouseY'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(27) : see declaration of 'ifft'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(28) : see declaration of 'iAnimFunction'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(29) : see declaration of 'iAnimCount'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(30) : see declaration of 'iAnimDelays'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(31) : see declaration of 'iAnimPause'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(153) : see declaration of 'iText'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(165) : see declaration of 'iText2'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(176) : see declaration of 'iPoint'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(259) : see declaration of 'iFilledCircle'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(278) : see declaration of 'iCircle'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(294) : see declaration of 'iEllipse'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(310) : see declaration of 'iFilledEllipse'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\igraphics.h(407) : see declaration of 'iInitialize'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(3): error C2374: 'gameState' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(3) : see declaration of 'gameState'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(7): error C2011: 'buttonCordinate' : 'struct' type redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(7) : see declaration of 'buttonCordinate'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(11): error C2086: 'int mposx' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(11) : see declaration of 'mposx'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(11): error C2086: 'int mposy' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(11) : see declaration of 'mposy'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(13): error C2374: 'buttons' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(13) : see declaration of 'buttons'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(14): error C2374: 'bg' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(14) : see declaration of 'bg'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(15): error C2374: 'sc1' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(15) : see declaration of 'sc1'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(16): error C2374: 'sc2' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(16) : see declaration of 'sc2'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(20): error C2374: 'bg_1' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(20) : see declaration of 'bg_1'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(21): error C2374: 'weak' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(21) : see declaration of 'weak'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(22): error C2374: 'muzzle' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(22) : see declaration of 'muzzle'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(23): error C2374: 'soldier_run' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(23) : see declaration of 'soldier_run'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(25): error C2374: 'soldier_run_index' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(25) : see declaration of 'soldier_run_index'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(27): error C2374: 'soldier_x' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(27) : see declaration of 'soldier_x'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(28): error C2374: 'soldier_y' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(28) : see declaration of 'soldier_y'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(29): error C2374: 'soldier_stop_position' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(29) : see declaration of 'soldier_stop_position'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(32): error C2370: 'max_lane' : redefinition; different storage class
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(32) : see declaration of 'max_lane'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(33): error C2374: 'lane' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(33) : see declaration of 'lane'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(34): error C2086: 'int lane_offset' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(34) : see declaration of 'lane_offset'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(35): error C2086: 'int weak_y' : redefinition
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(35) : see declaration of 'weak_y'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(36): error C2374: 'weak_x' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(36) : see declaration of 'weak_x'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(37): error C2374: 'fire' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(37) : see declaration of 'fire'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(39): error C2374: 'fire_timer' : redefinition; multiple initialization
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(39) : see declaration of 'fire_timer'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\levelone.h(7): error C3861: 'iShowBMP': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\levelone.h(14): error C3861: 'iShowBMP2': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\levelone.h(21): error C3861: 'iShowBMP2': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\levelone.h(25): error C3861: 'iShowBMP2': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\imain.cpp(9): error C3861: 'iClear': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\imain.cpp(12): error C3861: 'iShowBMP': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\imain.cpp(15): error C2027: use of undefined type 'buttonCordinate'
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(7) : see declaration of 'buttonCordinate'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\imain.cpp(15): error C2228: left of '.x' must have class/struct/union
+                 d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\variables.h(7) : see declaration of 'buttonCordinate'
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\imain.cpp(15): error C2228: left of '.y' must have class/struct/union
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\imain.cpp(15): error C3861: 'iShowBMP2': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\imain.cpp(25): error C3861: 'iShowBMP': identifier not found
+     1>d:\workspace\game_dev\johnweakvs_13\johnweakvs_13\imain.cpp(25): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "D:\Workspace\Game_Dev\JohnWeakVS_13\JohnWeakVS_13\JohnWeakVS_13.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.99

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "John Weak Level 1", "John Weak Level 1\John Weak Level 1.vcxproj", "{C73374F7-1ECB-4615-ABB4-0455B7A480E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "menu", "..\menu\menu\menu.vcxproj", "{CC5A7FE6-86AB-499F-A485-FE0B4B17B76B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C73374F7-1ECB-4615-ABB4-0455B7A480E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C73374F7-1ECB-4615-ABB4-0455B7A480E8}.Debug|Win32.Build.0 = Debug|Win32
+		{C73374F7-1ECB-4615-ABB4-0455B7A480E8}.Release|Win32.ActiveCfg = Release|Win32
+		{C73374F7-1ECB-4615-ABB4-0455B7A480E8}.Release|Win32.Build.0 = Release|Win32
+		{CC5A7FE6-86AB-499F-A485-FE0B4B17B76B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC5A7FE6-86AB-499F-A485-FE0B4B17B76B}.Debug|Win32.Build.0 = Debug|Win32
+		{CC5A7FE6-86AB-499F-A485-FE0B4B17B76B}.Release|Win32.ActiveCfg = Release|Win32
+		{CC5A7FE6-86AB-499F-A485-FE0B4B17B76B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
